@@ -1,0 +1,133 @@
+.custom-container.home{
+    margin:3em 45px;
+}
+.row{
+    margin-bottom: 15px;
+}
+i{
+    font-size: 18px;
+    padding:0 5px;
+    position:relative;
+    top:2px;
+}
+.ourgames{
+    min-height: 400px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 0 2px #22313F;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.aboutus{
+    min-height: 100px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 0 2px #22313F;
+}
+.joinus{
+    min-height: 100px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 0 2px #22313F;
+}
+.overlay {
+    
+    height: 4em;
+    color: #eee;
+    padding: 22px;
+    position: relative;
+    font-size: 16px;
+    text-align: left;
+    /*
+    width: 101%;
+    left: -2px;
+    box-shadow: 0 0 2px #22313F;
+    */
+}
+.game{
+    background-color: #D91E18;
+    background-color: #336E7B;
+}
+.join{
+    background-color: #336E7B;
+    background-color: #336E7B;
+}
+.about{
+    background-color: #00B16A;
+    background-color: #336E7B;
+}
+.content {
+    text-align: left;
+    padding: 1em;
+    font-size: 17px;
+}
+.custom-social-btn{
+    border-radius:0px;
+}
+
+.newgame{
+    height: 15em;
+    margin: 0;
+    background-color: #19B5FE;
+    box-shadow: 0 0 2px #000;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top:15px;
+    overflow:hidden;
+    
+}
+.newgame img{
+    height:100%;
+    width:100%;
+}
+
+.newgame:hover span{
+    background-color: rgba(51, 110, 123,1);
+}
+.newgame:hover{
+    cursor:pointer;
+}
+.newgame span{
+    position: relative;
+    top: -50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(51, 110, 123,0.7);
+    padding: 13px;
+    
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+.newgame div{
+    position: relative;
+    top: -370px;
+    display: block;
+    text-align: center;
+    background-color: rgba(34, 49, 63,0.8);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+}
+.newgame:hover div{
+    top: -305px;
+}
+/*
+.gameimg{
+    width: 5em;
+    margin: 0;
+    padding: 0px;
+    box-shadow: 0 0 2px #000;
+    height: 109%;
+    position: relative;
+    top: -2px;
+}
+.gameimg img{
+    height:100%;
+}
+.gamename{
+    padding: 17px;
+    font-size: 22px;
+}
+*/
